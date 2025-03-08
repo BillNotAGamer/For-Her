@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
             localStorage.setItem("verified", "true"); 
             setTimeout(() => {
-                window.location.href = "index.html"; 
+                window.location.href = "main.html"; 
             }, 2500);
         } else {
             popup.innerHTML = "⚠️ Hong phải ghệ tui, nhập lại đi! :((";
